@@ -155,7 +155,7 @@ st.write("""
 *Accuracy Score: 0.8413, Precision Score: 0.85, Recall Score: 0.8667, F1 Score: 0.8566*
 """)
 
-df = pd.read_csv("HeartDataSet/heart.csv")
+df = pd.read_csv("heart.csv")
 df.columns = ['Yaş', 'Cinsiyet', 'Göğüs ağrısı türü', 'Dinlenme kan basıncı', 'Kolestoral', 'AKŞ120', 'EKG',
               'Maks kalp hızı', 'Egzersize bağlı anjina', 'ST depression', 'Eğim', 'Ana damar sayısı', 'Talasemi',
               'Target']
